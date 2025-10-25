@@ -73,7 +73,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
   A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
   B --> C[Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}]
@@ -85,7 +85,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
     A[Abre la carpeta GodMode] --> B[Navega categorías ej. Administración]
     B --> C[Selecciona herramienta ej. Admin de Dispositivos]
@@ -98,7 +98,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
     A[Descarga e instala Etcher] --> B[Descarga ISO ej. Linux Mint]
     B --> C[Inserta USB]
@@ -114,7 +114,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
     A[Abre PowerShell como admin] --> B[Ejecuta wsl --install]
     B --> C[Reinicia PC]
@@ -124,7 +124,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
     A[Verifica WSL instalado] --> B[Descarga instalador .exe]
     B --> C[Ejecuta instalador]
@@ -133,7 +133,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 flowchart TD
     A[Descarga instalador desde sitio] --> B[Ejecuta .exe como admin]
     B --> C[Sigue wizard]
@@ -141,7 +141,7 @@ flowchart TD
 ```
 
 
-```
+```mermaid
 flowchart TD
     A[Descarga instalador desde sitio] --> B[Ejecuta .exe como admin]
     B --> C[Sigue wizard]
@@ -152,7 +152,7 @@ flowchart TD
 
 
 
-```
+```mermaid
 graph TD
     Start[Inicio: Configura Windows] --> T1[Tarea 1: Activa Modo Dios]
     T1 --> T2[Tarea 2: Instala BalenaEtcher y crea USB]
