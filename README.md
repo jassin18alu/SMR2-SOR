@@ -2,7 +2,7 @@
 
 # Práctica de Sistemas Operativos
 
-**Autor:** [Tu Nombre]  
+**Autor:** [Jashanpreet Singh]  
 *Fecha:* 25 de octubre de 2025  
 [Enlace al repositorio de GitHub](https://github.com/tu-usuario/tu-repo) (reemplaza con tu enlace real)
 
