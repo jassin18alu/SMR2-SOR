@@ -59,17 +59,6 @@ A continuación, detallo cada tarea con explicación, pasos, comandos/códigos y
 
 **Diagrama Mermaid de Pasos para Iniciarlo:**
 
-```mermaid
-
-flowchart TD
-  A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
-  B --> C["Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"]
-  C --> D[Presiona Enter]
-  D --> E[Icono cambia, carpeta lista]
-```
-
-
-
 
 
 
@@ -124,14 +113,6 @@ flowchart TD
     C --> D[Abre Docker y verifica con docker --version]
 ```
 
-
-
-```mermaid
-flowchart TD
-    A[Descarga instalador desde sitio] --> B[Ejecuta .exe como admin]
-    B --> C[Sigue wizard]
-    C --> D[Reinicia desde acceso directo]
-```
 
 
 ```mermaid
