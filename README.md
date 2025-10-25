@@ -75,22 +75,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
-  B --> C[Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}]
-  C --> D[Presiona Enter]
-  D --> E[Icono cambia, carpeta lista]
-```
-
-
-
-
-
-```mermaid
-flowchart TD
-    A[Abre la carpeta GodMode] --> B[Navega categorías ej. Administración]
-    B --> C[Selecciona herramienta ej. Admin de Dispositivos]
-    C --> D[Usa la herramienta]
-    D --> E[Vuelve a carpeta para más opciones]
+A[Haz clic derecho en el escritorio] --> B[Selecciona Nuevo > Carpeta]
+  B --> C["Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"]
+C --> D[Presiona Enter]
+D --> E[Abre la carpeta GodMode]
+E --> F[Navega categorías ej. Administración]
+F --> G[Selecciona herramienta ej. Admin de Dispositivos]
+G --> H[Usa la herramienta]
+H --> I[Vuelve a carpeta para más opciones]
+I --> F
 ```
 
 
