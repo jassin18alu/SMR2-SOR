@@ -1,5 +1,6 @@
 # SMR2-SOR
 
+
 # Práctica de Sistemas Operativos
 
 **Autor:** [Jashanpreet Singh]  
@@ -56,6 +57,10 @@ A continuación, detallo cada tarea con explicación, pasos, comandos/códigos y
 **Código/Comando:** El "código" es el nombre de la carpeta: `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`.
 
 **Diagrama Mermaid de Pasos para Iniciarlo:**
+
+
+
+
 ```mermaid
 flowchart TD
   A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
@@ -157,3 +162,8 @@ graph TD
     T3 --> T4[Tarea 4: Instala Docker Desktop]
     T4 --> T5[Tarea 5: Instala LliuWin]
     T5 --> End[Fin: Entornos listos]
+
+
+
+
+``` mermaid
