@@ -73,7 +73,6 @@ flowchart TD
 
 
 
-```mermaid
 flowchart TD
   A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
   B --> C[Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}]
