@@ -27,6 +27,7 @@ Aquí demuestro formatos simples y sofisticados:
 echo "Hola mundo"
 
 
+
 - Citas:
 > "Crear formatos sofisticados para tu prosa y código en GitHub con sintaxis simple." - Manual de GitHub.
 - Enlaces: [Manual de Diagramas](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
@@ -55,6 +56,20 @@ A continuación, detallo cada tarea con explicación, pasos, comandos/códigos y
 **Código/Comando:** El "código" es el nombre de la carpeta: `GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`.
 
 **Diagrama Mermaid de Pasos para Iniciarlo:**
+```mermaid
+flowchart TD
+  A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
+  B --> C["Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"]
+  C --> D[Presiona Enter]
+  D --> E[Icono cambia, carpeta lista]
+
+
+
+
+
+
+
+
 ```mermaid
 flowchart TD
   A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
