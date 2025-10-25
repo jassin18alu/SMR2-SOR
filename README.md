@@ -58,6 +58,7 @@ A continuación, detallo cada tarea con explicación, pasos, comandos/códigos y
 
 
 **Diagrama Mermaid de Pasos para Iniciarlo:**
+
 ```mermaid
 
 flowchart TD
@@ -65,45 +66,46 @@ flowchart TD
   B --> C["Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}"]
   C --> D[Presiona Enter]
   D --> E[Icono cambia, carpeta lista]
+```
 
 
 
 
 
 
-
-
+```
 flowchart TD
   A[Haz clic derecho en escritorio] --> B[Selecciona Nuevo > Carpeta]
   B --> C[Renombra a GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}]
   C --> D[Presiona Enter]
   D --> E[Icono cambia, carpeta lista]
+```
 
 
 
 
 
-
-
+```
 flowchart TD
     A[Abre la carpeta GodMode] --> B[Navega categorías ej. Administración]
     B --> C[Selecciona herramienta ej. Admin de Dispositivos]
     C --> D[Usa la herramienta]
     D --> E[Vuelve a carpeta para más opciones]
+```
 
 
 
 
 
 
-
-
+```
 flowchart TD
     A[Descarga e instala Etcher] --> B[Descarga ISO ej. Linux Mint]
     B --> C[Inserta USB]
     C --> D[Abre Etcher y selecciona ISO]
     D --> E[Selecciona USB]
     E --> F[Haz clic en Flash]
+```
 
 
 
@@ -112,46 +114,45 @@ flowchart TD
 
 
 
-
-
+```
 flowchart TD
     A[Abre PowerShell como admin] --> B[Ejecuta wsl --install]
     B --> C[Reinicia PC]
     C --> D[Configura usuario en terminal Linux]
+```
 
 
 
 
-
-
+```
 flowchart TD
     A[Verifica WSL instalado] --> B[Descarga instalador .exe]
     B --> C[Ejecuta instalador]
     C --> D[Abre Docker y verifica con docker --version]
+```
 
 
 
-
-
+```
 flowchart TD
     A[Descarga instalador desde sitio] --> B[Ejecuta .exe como admin]
     B --> C[Sigue wizard]
     C --> D[Reinicia desde acceso directo]
+```
 
 
-
-
+```
 flowchart TD
     A[Descarga instalador desde sitio] --> B[Ejecuta .exe como admin]
     B --> C[Sigue wizard]
     C --> D[Reinicia desde acceso directo]
+```
 
 
 
 
 
-
-
+```
 graph TD
     Start[Inicio: Configura Windows] --> T1[Tarea 1: Activa Modo Dios]
     T1 --> T2[Tarea 2: Instala BalenaEtcher y crea USB]
@@ -159,8 +160,5 @@ graph TD
     T3 --> T4[Tarea 4: Instala Docker Desktop]
     T4 --> T5[Tarea 5: Instala LliuWin]
     T5 --> End[Fin: Entornos listos]
-
-
-
-
+```
 ```
